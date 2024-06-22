@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualização de Dados - Família Helium</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <link rel="stylesheet" href="css/grafico-pizza.css">
+</head>
+<body>
+
+    <h2>Gráfico de Pizza das Categorias de Despesas</h2>
+    <div class="chart-container">
+        <canvas id="pieChart"></canvas>
+        <p> Um gráfico de pizza poderia ser utilizado para mostrar a proporção de despesas em cada categoria (essencial, 
+            emergencial, carro, lazer e mercado). Isso ajudaria a identificar onde a maior parte do dinheiro está sendo 
+            gasta e se há áreas que podem ser ajustadas para economizar.</p>
+    </div>
+    <div class="button-container">
+        <button onclick="goToPieChart()">Ir para o Gráfico de Pizza</button>
+    </div>
+
+   <script src="js/grafico-pizza.js"></script>
+</body>
+</html>

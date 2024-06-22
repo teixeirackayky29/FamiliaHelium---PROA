@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.chart-container {
+    width: 600px;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+}
+
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

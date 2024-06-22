@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <link rel="stylesheet" href="css/grafico-barra.css">
+    <title>Grafico de barra</title>
+</head>
+<body>
+    <h2>Gráfico de Barras das Receitas e Despesas ao longo do Tempo</h2>
+    <div class="chart-container">
+        <canvas id="barChart"></canvas>
+        <p>
+            Este gráfico poderia mostrar a evolução das receitas e despesas da família ao longo dos meses. As barras 
+           seriam divididas em receitas (salário de Helen, salário de Sofia e pensão) e despesas (aluguel, água, internet, 
+           mercado, etc.). Isso forneceria uma visão clara de como as finanças da família variam ao longo do tempo
+        </p>
+    </div>
+    <div class="button-container">
+        <button onclick="goToPieChart()">Ir para o Gráfico de Barra</button>
+    </div>
+    <script src="js/grafico-barra.js"></script>
+</body>
+</html>
